@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drones | Zethu's Blog</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>🚁 Drone Piloting</h1>
+      <nav>
+        <a href="index.html">Home</a>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <p>
+          Flying drones is not just a hobby — it's a new way to see the world.
+          From capturing cinematic landscapes to mastering flight control, I
+          love blending tech and creativity in the skies.
+        </p>
+      </article>
+    </main>
+    <footer>
+      <p>© 2025 Zethu Sithole</p>
+    </footer>
+  </body>
+</html>

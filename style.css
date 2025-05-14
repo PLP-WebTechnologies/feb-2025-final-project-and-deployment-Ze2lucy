@@ -1,0 +1,89 @@
+:root {
+  --bg: #1e1e2f;
+  --text: #fdf0f5;
+  --accent: #ff77aa;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+nav,
+footer {
+  background-color: #2a2a3b;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: var(--accent);
+  margin: 0 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h1,
+h2 {
+  color: var(--accent);
+}
+
+main {
+  padding: 1rem;
+  max-width: 700px;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input,
+textarea {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: var(--accent);
+  color: #1e1e2f;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 1rem auto;
+  display: block;
+  border: 3px solid var(--accent);
+  box-shadow: 0 0 10px var(--accent);
+}
+
+.card {
+  text-decoration: none;
+  color: var(--text);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px var(--accent);
+}
